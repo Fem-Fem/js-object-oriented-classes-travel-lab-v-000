@@ -31,8 +31,14 @@ class Route {
     let horizontal_value = Math.abs(a - b)
     return vertical_value + horizontal_value
   }
-  estimatedTime() {
-    return this.blocksTravelled()/3
+  estimatedTime(peakHours = false) {
+    if (peakHours == true) {
+      return this.blocksTravelled()/2
+    }
+    else {
+      return this.blocksTravelled()/2
+
+    }
   }
 
 }
