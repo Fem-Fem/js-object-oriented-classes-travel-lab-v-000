@@ -23,7 +23,6 @@ class Route {
   blocksTravelled() {
     return `${this.endingLocation.vertical}` - `${this.beginningLocation.vertical}`
     let a = this.eastWest.indexOf(`${this.endingLocation.horizontal}`);
-    return `${this.endingLocation.horizontal}` - `${this.beginningLocation.horizontal}`
   }
   estimatedTime() {
 
