@@ -10,6 +10,7 @@ class Driver {
     var y = new Date(this.string).getFullYear()
     return year - y - 1
   }
+  
 }
 
 class Route {
@@ -26,7 +27,7 @@ class Route {
     let horizontal_value = Math.abs(a - b)
     return vertical_value + horizontal_value
   }
-  
+
   estimatedTime(peakHours = false) {
     if (peakHours == true) {
       return this.blocksTravelled()/2
