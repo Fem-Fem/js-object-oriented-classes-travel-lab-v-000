@@ -13,7 +13,13 @@ class Driver {
   }
 }
 
-class Route(beginningLocation, endingLocation) {
+class Route() {
+  constructor(beginningLocation, endingLocation) {
+    
+  }
+  blocksTravelled() {
+
+  }
 
 }
 
