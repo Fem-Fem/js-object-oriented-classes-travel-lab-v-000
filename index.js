@@ -5,7 +5,7 @@ class Driver {
   }
 
   startDate() {
-    this.startDate = new Date(this.string).getFullYear()
+    this.startDate = new Date(this.string)
     return this.startDate
   }
 
