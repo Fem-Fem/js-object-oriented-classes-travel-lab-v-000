@@ -5,7 +5,7 @@ class Driver {
   }
 
   startDate() {
-    return "x"
+    return `${this.string}`
   }
 
   yearsExperienceFromBeginningOf(year) {
