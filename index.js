@@ -20,9 +20,9 @@ class Route() {
   blocksTravelled() {
 
   }
-  estimatedTime( {
-    
-  })
+  estimatedTime() {
+
+  }
 
 }
 
