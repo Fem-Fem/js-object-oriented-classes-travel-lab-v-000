@@ -21,10 +21,11 @@ class Route {
 
   }
   blocksTravelled() {
-    return `${this.endingLocation.vertical}` - `${this.beginningLocation.vertical}`
+    vertical_value = `${this.endingLocation.vertical}` - `${this.beginningLocation.vertical}`
     let a = this.eastWest.indexOf(`${this.endingLocation.horizontal}`);
     let b = this.eastWest.indexOf(`${this.beginningLocation.horizontal}`);
-    return Math.abs(a - b)
+    horizontal_value = Math.abs(a - b)
+    return vertical_value + horizontal_value
   }
   estimatedTime() {
 
