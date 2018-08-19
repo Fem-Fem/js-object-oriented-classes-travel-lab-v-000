@@ -18,7 +18,7 @@ class Route {
     this.endingLocation = endingLocation
     this.eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
   }
-  
+
   blocksTravelled() {
     let vertical_value = Math.abs(parseInt(this.endingLocation.vertical) - parseInt(this.beginningLocation.vertical))
     let a = this.eastWest.indexOf(`${this.endingLocation.horizontal}`);
@@ -26,6 +26,7 @@ class Route {
     let horizontal_value = Math.abs(a - b)
     return vertical_value + horizontal_value
   }
+  
   estimatedTime(peakHours = false) {
     if (peakHours == true) {
       return this.blocksTravelled()/2
