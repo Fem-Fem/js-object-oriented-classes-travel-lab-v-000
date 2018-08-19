@@ -19,6 +19,7 @@ class Route {
     this.endingLocation = endingLocation
   }
   blocksTravelled() {
+    return ${this.beginningLocation}
 
   }
   estimatedTime() {
