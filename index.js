@@ -22,7 +22,8 @@ class Route {
   }
   blocksTravelled() {
     return `${this.endingLocation.vertical}` - `${this.beginningLocation.vertical}`
-
+    let a = this.eastWest.indexOf("Apple");
+    return `${this.endingLocation.horizontal}` - `${this.beginningLocation.horizontal}`
   }
   estimatedTime() {
 
