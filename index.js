@@ -13,6 +13,10 @@ class Driver {
   }
 }
 
+class Route(beginningLocation, endingLocation) {
+
+}
+
 Driver
 
     A driver can be initialized with a name, and a string representing the day that he joined Scuber. Add the following methods and attributes to the class:
