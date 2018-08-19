@@ -7,6 +7,10 @@ class Driver {
   startDate() {
     return "x"
   }
+
+  yearsExperienceFromBeginningOf(year) {
+    return year
+  }
 }
 
 Driver
