@@ -25,8 +25,7 @@ class Route {
     let a = this.eastWest.indexOf(`${this.endingLocation.horizontal}`);
     let b = this.eastWest.indexOf(`${this.beginningLocation.horizontal}`);
     let horizontal_value = Math.abs(a - b)
-    // return horizontal_value
-    // return vertical_value + horizontal_value
+    return vertical_value + horizontal_value
   }
   estimatedTime() {
 
