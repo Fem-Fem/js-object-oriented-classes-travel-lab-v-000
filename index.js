@@ -5,12 +5,12 @@ class Driver {
   }
 
   startDate() {
-    this.startDate = new Date (this.string)
+    this.startDate = new Date(this.string).getFullYear()
     return this.startDate
   }
 
   yearsExperienceFromBeginningOf(year) {
-    var x = new Date(this.string).getFullYear
+    var y = new Date(this.string).getFullYear()
     return x
     // .getFullYear();
     // return this.string
