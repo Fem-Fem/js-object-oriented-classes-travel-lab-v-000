@@ -5,11 +5,7 @@ class Driver {
     this.startDate = new Date(this.string)
 
   }
-
-  startDate() {
-    return this.startDate
-  }
-
+  
   yearsExperienceFromBeginningOf(year) {
     var y = new Date(this.string).getFullYear()
     return year - y - 1
