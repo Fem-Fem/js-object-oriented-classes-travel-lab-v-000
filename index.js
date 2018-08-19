@@ -10,7 +10,7 @@ class Driver {
   }
 
   yearsExperienceFromBeginningOf(year) {
-    var x = new Date(`$this.string`)
+    var x = new Date(this.string)
     return x
     // .getFullYear();
     // return this.string
