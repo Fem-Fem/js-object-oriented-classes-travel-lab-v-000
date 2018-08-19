@@ -2,10 +2,11 @@ class Driver {
   constructor(name, string) {
     this.name = name
     this.string = string
+    this.startDate = new Date(this.string)
+
   }
 
   startDate() {
-    this.startDate = new Date(this.string)
     return this.startDate
   }
 
