@@ -13,7 +13,7 @@
 //   }
 // }
 
-class Route() {
+class Route {
   constructor(beginningLocation, endingLocation) {
 
   }
