@@ -28,7 +28,7 @@ class Route {
     return vertical_value + horizontal_value
   }
   estimatedTime() {
-    return blocksTravelled() * 3
+    return Route.blocksTravelled() * 3
   }
 
 }
